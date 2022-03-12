@@ -1,0 +1,91 @@
+{
+  "id": "1",
+  "name": "root",
+  "type": "FOLDER",
+  "children": [
+    {
+      "id": "2",
+      "name": "app",
+      "type": "FOLDER",
+      "children": [
+        {
+          "id": "4",
+          "name": "assets",
+          "type": "FOLDER",
+          "children": [
+            {
+              "id": "7",
+              "name": "hello.jpg",
+              "type": "IMAGE",
+              "path": "datafiles/hello.jpg"
+            },
+            {
+              "id": "12",
+              "name": "kitty.jpg",
+              "type": "IMAGE",
+              "path": "datafiles/kitty.jpg"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "services",
+          "type": "FOLDER",
+          "children": [
+            {
+              "id": "8",
+              "name": "document.txt",
+              "type": "TEXT",
+              "path": "datafiles/document.txt"
+            },
+            {
+              "id": "9",
+              "name": "dummy.txt",
+              "type": "TEXT",
+              "path": "datafiles/dummy.txt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "backup",
+      "type": "FOLDER",
+      "children": [
+        {
+          "id": "6",
+          "name": "user",
+          "type": "FOLDER",
+          "children": [
+            {
+              "id": "10",
+              "name": "all",
+              "type": "FOLDER",
+              "children": [
+                {
+                  "id": "11",
+                  "name": "tsconfig.json",
+                  "type": "OTHERS",
+                  "path": "datafiles/tsconfig.json"
+                },
+                {
+                  "id": "121",
+                  "name": "CantinaBand3.wav",
+                  "type": "MUSIC",
+                  "path": "datafiles/CantinaBand3.wav"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "123",
+          "name": "sample.mp4",
+          "type": "VIDEO",
+          "path": "datafiles/sample.mp4"
+        }
+      ]
+    }
+  ]
+}
